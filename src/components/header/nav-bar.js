@@ -9,23 +9,22 @@ import ContactBar from './contact-bar';
 
 class NavBar extends Component {
 	render() {
-	return (
-		<Navbar collapseOnSelect>
-			<Navbar.Header>
-				<Navbar.Brand>
-					<a href="#">React-Bootstrap</a>
-				</Navbar.Brand>
-				<Navbar.Toggle />
-			</Navbar.Header>
-			<Navbar.Collapse>
-				<ContactBar />
-				<Nav pullRight>
-					<NavItem><Link to='/'>Home</Link></NavItem>
-					<NavItem><Link to='/gallery'>Gallery</Link></NavItem>
-					<NavItem><Link to='/menu'>Menu</Link></NavItem>
-				</Nav>
-			</Navbar.Collapse>
-		</Navbar>
+		return (
+			<Navbar collapseOnSelect>
+				<Navbar.Header>
+					<Navbar.Brand>
+						<ContactBar />
+					</Navbar.Brand>
+					<Navbar.Toggle />
+				</Navbar.Header>
+				<Navbar.Collapse>
+					<Nav pullRight>
+						<NavItem><Link to='/'>Home</Link></NavItem>
+						<NavItem><Link to='/gallery'>Gallery</Link></NavItem>
+						<NavItem><Link to='/menu'>Menu</Link></NavItem>
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
 		);
 	}
 }

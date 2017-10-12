@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route } from 'react-router-dom';
-import Home from './components/home';
-import Gallery from './components/gallery';
-import Menu from './components/menu';
+import Home from './components/pages/home';
+import Gallery from './components/pages/gallery';
+import Menu from './components/pages/menu';
 
 class App extends Component {
 	render() {

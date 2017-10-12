@@ -1,5 +1,26 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.pl-0 {
+	padding-left: 0px !important;
+}
+
+.contact-bar {
+	display: inline;
+	padding-left: 0px;
+}
+
+.navbar-default > .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (max-width: 768px) {
+	.navbar-default > .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }

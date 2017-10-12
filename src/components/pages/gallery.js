@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './header';
-import Footer from './footer';
+import Header from '../header/header';
+import Footer from '../footer/footer';
 import Lightbox from 'react-images';
 import Container from 'react-photo-container';
 

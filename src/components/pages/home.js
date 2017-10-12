@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Header from './header';
-import InfoBox from './info-box';
-import Footer from './footer';
+import Header from '../header/header';
+import InfoBox from '../shared/info-box';
+import Footer from '../footer/footer';
 
 class Home extends Component {
 	render() {

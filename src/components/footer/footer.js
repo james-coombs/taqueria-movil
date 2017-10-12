@@ -3,10 +3,10 @@ import FooterContact from './footer-contact';
 
 class Footer extends Component {
 	render() {
-	return (
-		<div className="footer">
-			<FooterContact />
-		</div>
+		return (
+			<div className="footer">
+				<FooterContact />
+			</div>
 		);
 	}
 }
