@@ -22,6 +22,12 @@ body {
 	margin: 0 auto;
 }
 
+.featured-image {
+	width: 80%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
 	.navbar-default > .container {
 		padding-left: 15px;

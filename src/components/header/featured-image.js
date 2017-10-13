@@ -8,10 +8,10 @@ import Col from 'react-bootstrap/lib/Col';
 class FeaturedImage extends Component {
 	render() {
 		return (
-			<Grid>
+			<Grid className="text-center">
 				<Row>
-					<Col sm={12} className="pull-right featured-image text-center">
-						<Image src={taco} alt="Taco Plate" className="text-center" responsive />
+					<Col sm={12}>
+						<Image src={taco} alt="Taco Plate" className="featured-image" />
 					</Col>
 				</Row>
 			</Grid>
