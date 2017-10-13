@@ -9,8 +9,10 @@ class FeaturedImage extends Component {
 	render() {
 		return (
 			<Grid>
-				<Row className="mission-statement-row">
-					<Col sm={12}><Image alt="Taco Plate" responsive /></Col>
+				<Row>
+					<Col sm={12} className="pull-right featured-image text-center">
+						<Image src={taco} alt="Taco Plate" className="text-center" responsive />
+					</Col>
 				</Row>
 			</Grid>
 		);
@@ -18,4 +20,3 @@ class FeaturedImage extends Component {
 }
 
 export default FeaturedImage;
-// <Image src={taco} alt="Taco Plate" responsive />

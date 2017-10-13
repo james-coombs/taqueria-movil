@@ -18,6 +18,10 @@ body {
 	padding-right: 0px;
 }
 
+.featured-image {
+	margin: 0 auto;
+}
+
 @media (max-width: 768px) {
 	.navbar-default > .container {
 		padding-left: 15px;
