@@ -2,7 +2,7 @@
   "name": "taqueria-movil",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/james-coombs/taqueria-movil",
+  "homepage": "https://james-coombs.github.io/taqueria-movil",
   "dependencies": {
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.3",
